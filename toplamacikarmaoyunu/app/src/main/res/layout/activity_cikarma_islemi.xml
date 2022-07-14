@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ekrana"
+    tools:context=".cikarmaIslemi">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/cevapbirr"
+            android:layout_width="147dp"
+            android:layout_height="133dp"
+            android:layout_weight="1"
+            android:background="#ffdab9"
+            android:fontFamily="@font/alfa_slab_one"
+            android:gravity="center"
+            android:text="90"
+            android:textColor="#A66A11"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/cevapikii"
+            android:layout_width="147dp"
+            android:layout_height="133dp"
+            android:layout_weight="1"
+            android:background="#ffdab9"
+            android:fontFamily="@font/alfa_slab_one"
+            android:gravity="center"
+            android:text="50"
+            android:textColor="#A66A11"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="132dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/ilkcarpimm"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#ffdab9"
+            android:layout_weight="1"
+            android:fontFamily="@font/alfa_slab_one"
+            android:gravity="center"
+            android:text="10"
+            android:textColor="#705959"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/alfa_slab_one"
+            android:gravity="center"
+            android:background="#ffdab9"
+            android:text="-"
+            android:textColor="#705959"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/ikincicarpimm"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffdab9"
+            android:fontFamily="@font/alfa_slab_one"
+            android:gravity="center"
+            android:text="7"
+            android:textColor="#705959"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/alfa_slab_one"
+            android:background="#ffdab9"
+            android:gravity="center"
+            android:text="="
+            android:textColor="#705959"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/cevapp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/alfa_slab_one"
+            android:gravity="center"
+            android:text="?"
+            android:background="#ffdab9"
+            android:textColor="#E91E63"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="0dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/cevapucc"
+            android:layout_width="147dp"
+            android:layout_height="133dp"
+            android:layout_weight="1"
+            android:background="#ffdab9"
+            android:fontFamily="@font/alfa_slab_one"
+            android:gravity="center"
+            android:text="7"
+            android:textColor="#A66A11"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/cevapdortt"
+            android:layout_width="147dp"
+            android:layout_height="133dp"
+            android:layout_weight="1"
+            android:background="#ffdab9"
+            android:fontFamily="@font/alfa_slab_one"
+            android:gravity="center"
+            android:text="70"
+            android:textColor="#A66A11"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/degistirr"
+        android:layout_width="367dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="44dp"
+        android:background="#2196F3"
+        android:fontFamily="@font/archivo_black"
+        android:gravity="center"
+        android:text="Değiştir"
+
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/soruCozz"
+        android:layout_width="372dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="28dp"
+        android:background="#271D0547"
+        android:fontFamily="@font/candal"
+        android:gravity="center"
+        android:text="1. Soruyu Çöz"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
