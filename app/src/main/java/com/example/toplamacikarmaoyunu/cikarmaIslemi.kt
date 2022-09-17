@@ -20,9 +20,9 @@ class cikarmaIslemi : AppCompatActivity() {
         val cevapUc = findViewById<TextView>(R.id.cevapucc)
         val cevapDort = findViewById<TextView>(R.id.cevapdortt)
         val cevap = findViewById<TextView>(R.id.cevapp)
-        val degistir = findViewById<TextView>(R.id.degistirr)
+        val degistir = findViewById<TextView>(R.id.degistir2)
         val ekrann = findViewById<androidx.constraintlayout.widget.ConstraintLayout>(R.id.ekrana)
-        val soruCozz = findViewById<TextView>(R.id.soruCozz)
+        val soruCozz = findViewById<TextView>(R.id.soruCoz31)
 
         //val sure = findViewById<ProgressBar>(R.id.progressBar)
 
@@ -309,10 +309,10 @@ class cikarmaIslemi : AppCompatActivity() {
 
         degistir.setOnClickListener {
             soruSayi++
-            cevapBir.setBackgroundColor(Color.parseColor("#ffdab9"))
-            cevapIkı.setBackgroundColor(Color.parseColor("#ffdab9"))
-            cevapUc.setBackgroundColor(Color.parseColor("#ffdab9"))
-            cevapDort.setBackgroundColor(Color.parseColor("#ffdab9"))
+            cevapBir.setBackgroundColor(Color.parseColor("#FFFFFF"))
+            cevapIkı.setBackgroundColor(Color.parseColor("#FFFFFF"))
+            cevapUc.setBackgroundColor(Color.parseColor("#FFFFFF"))
+            cevapDort.setBackgroundColor(Color.parseColor("#FFFFFF"))
             cevapBir.setTextColor(Color.parseColor("#A66A11"))
             cevapIkı.setTextColor(Color.parseColor("#A66A11"))
             cevapUc.setTextColor(Color.parseColor("#A66A11"))
@@ -321,19 +321,19 @@ class cikarmaIslemi : AppCompatActivity() {
 
 
             if (soruSayi <= 10) {
-                soruCozz.text = soruSayi.toString() + ". Sorudasın. Güzell!"
+                soruCozz.text = soruSayi.toString()+"."
             } else if (soruSayi <= 20) {
-                soruCozz.text = soruSayi.toString() + ". Sorudasın. Çok İyi!"
+                soruCozz.text = soruSayi.toString()+"."
             } else if (soruSayi <= 30) {
-                soruCozz.text = soruSayi.toString() + ". Sorudasın. Muhteşem!"
+                soruCozz.text = soruSayi.toString()+"."
             } else if (soruSayi <= 45) {
-                soruCozz.text = soruSayi.toString() + ". Sorudasın. Efsane!"
+                soruCozz.text = soruSayi.toString()+"."
                 soruCozz.setBackgroundColor(Color.parseColor("#ff8c00"))
             } else if (soruSayi <= 65) {
-                soruCozz.text = soruSayi.toString() + ". Sorudasın. Lider!"
+                soruCozz.text = soruSayi.toString()+"."
                 soruCozz.setBackgroundColor(Color.parseColor("#ee6a50"))
             } else {
-                soruCozz.text = soruSayi.toString() + ". Sorudasın. Matematikçi!"
+                soruCozz.text = soruSayi.toString()+"."
                 soruCozz.setBackgroundColor(Color.parseColor("#c60000"))
             }
 

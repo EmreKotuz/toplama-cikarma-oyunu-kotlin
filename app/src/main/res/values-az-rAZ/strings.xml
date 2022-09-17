@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">toplama çikarma oyunu</string>
+    <string name="cikarma">Çıxarma (-)</string>
+    <string name="toplama">Toplama (+)</string>
+    <string name="Sorudasın">sual</string>
+</resources>
