@@ -1,9 +1,6 @@
 # toplama-cikarma-oyunu-kotlin
 
 
-![toplamacikarmaoyunu](https://user-images.githubusercontent.com/50784738/205484341-6ab7287e-ff03-4e2c-99c9-52be786766a4.png)
-
-
 
 TR:
 
@@ -43,3 +40,7 @@ If he collects at least 1000 points in 2 minutes, he is entitled to enter the ra
 People who reach 1000 points are listed.
 This time, the application determines the addition and subtraction process itself and chooses between 2 operations, and this time makes a random selection between 2 numbers.
 In the choice he makes, he must answer the question correctly. If he can solve at least 40 questions in 2 minutes, he will be ranked.
+
+
+
+![toplamacikarmaoyunu](https://user-images.githubusercontent.com/50784738/205484341-6ab7287e-ff03-4e2c-99c9-52be786766a4.png)
