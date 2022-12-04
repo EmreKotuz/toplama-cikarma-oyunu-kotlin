@@ -66,34 +66,34 @@ class toplamaIslemi : AppCompatActivity() {
         val rastgeleList = Random.nextInt(1, 4)
         if (rastgeleList == 1) {
             cevapBir.text = i.toString()
-            val randomlar = Random.nextInt(0, 30)
+            val randomlar = Random.nextInt(-15, 15)
             if (i.toString() == randomlar.toString()) {
-                val randomlar = Random.nextInt(0, 30)
+                val randomlar = Random.nextInt(-15, 15)
                 cevapIkı.text = randomlar.toString()
             } else if (i.toString() == randomlar.toString()) {
-                val randomlar = Random.nextInt(0, 30)
+                val randomlar = Random.nextInt(-15, 15)
                 cevapIkı.text = randomlar.toString()
             } else {
                 cevapIkı.text = randomlar.toString()
             }
 
-            val randomlarIki = Random.nextInt(0, 30)
+            val randomlarIki = Random.nextInt(-15, 15)
             if (i.toString() == randomlarIki.toString()) {
-                val randomlarIki = Random.nextInt(0, 30)
+                val randomlarIki = Random.nextInt(-15, 15)
                 cevapUc.text = randomlarIki.toString()
             } else if (i.toString() == randomlarIki.toString()) {
-                val randomlarIki = Random.nextInt(0, 30)
+                val randomlarIki = Random.nextInt(-15, 15)
                 cevapUc.text = randomlarIki.toString()
             } else {
                 cevapUc.text = randomlarIki.toString()
             }
 
-            val randomlarUc = Random.nextInt(0, 30)
+            val randomlarUc = Random.nextInt(-15, 15)
             if (i.toString() == randomlarUc.toString()) {
-                val randomlarUc = Random.nextInt(0, 30)
+                val randomlarUc = Random.nextInt(-15, 15)
                 cevapDort.text = randomlarUc.toString()
             } else if (i.toString() == randomlarUc.toString()) {
-                val randomlarUc = Random.nextInt(0, 30)
+                val randomlarUc = Random.nextInt(-15, 15)
                 cevapDort.text = randomlarUc.toString()
             } else {
                 cevapDort.text = randomlarUc.toString()
@@ -127,34 +127,34 @@ class toplamaIslemi : AppCompatActivity() {
             }
         } else if (rastgeleList == 2) {
             cevapIkı.text = i.toString()
-            val randomlar = Random.nextInt(0, 30)
+            val randomlar = Random.nextInt(-15, 15)
             if (i.toString() == randomlar.toString()) {
-                val randomlar = Random.nextInt(0, 30)
+                val randomlar = Random.nextInt(-15, 15)
                 cevapBir.text = randomlar.toString()
             } else if (i.toString() == randomlar.toString()) {
-                val randomlar = Random.nextInt(0, 30)
+                val randomlar = Random.nextInt(-15, 15)
                 cevapBir.text = randomlar.toString()
             } else {
                 cevapBir.text = randomlar.toString()
             }
 
-            val randomlarIki = Random.nextInt(0, 30)
+            val randomlarIki = Random.nextInt(-15, 15)
             if (i.toString() == randomlarIki.toString()) {
-                val randomlarIki = Random.nextInt(0, 30)
+                val randomlarIki = Random.nextInt(-15, 15)
                 cevapUc.text = randomlarIki.toString()
             } else if (i.toString() == randomlarIki.toString()) {
-                val randomlarIki = Random.nextInt(0, 30)
+                val randomlarIki = Random.nextInt(-15, 15)
                 cevapUc.text = randomlarIki.toString()
             } else {
                 cevapUc.text = randomlarIki.toString()
             }
 
-            val randomlarUc = Random.nextInt(0, 30)
+            val randomlarUc = Random.nextInt(-15, 15)
             if (i.toString() == randomlarUc.toString()) {
-                val randomlarUc = Random.nextInt(0, 30)
+                val randomlarUc = Random.nextInt(-15, 15)
                 cevapDort.text = randomlarUc.toString()
             } else if (i.toString() == randomlarUc.toString()) {
-                val randomlarUc = Random.nextInt(0, 30)
+                val randomlarUc = Random.nextInt(-15, 15)
                 cevapDort.text = randomlarUc.toString()
             } else {
                 cevapDort.text = randomlarUc.toString()
@@ -187,34 +187,34 @@ class toplamaIslemi : AppCompatActivity() {
             }
         } else if (rastgeleList == 3) {
             cevapUc.text = i.toString()
-            val randomlar = Random.nextInt(0, 30)
+            val randomlar = Random.nextInt(-15, 15)
             if (i.toString() == randomlar.toString()) {
-                val randomlar = Random.nextInt(0, 30)
+                val randomlar = Random.nextInt(-15, 15)
                 cevapBir.text = randomlar.toString()
             } else if (i.toString() == randomlar.toString()) {
-                val randomlar = Random.nextInt(0, 30)
+                val randomlar = Random.nextInt(-15, 15)
                 cevapBir.text = randomlar.toString()
             } else {
                 cevapBir.text = randomlar.toString()
             }
 
-            val randomlarIki = Random.nextInt(0, 30)
+            val randomlarIki = Random.nextInt(-15, 15)
             if (i.toString() == randomlarIki.toString()) {
-                val randomlarIki = Random.nextInt(0, 30)
+                val randomlarIki = Random.nextInt(-15, 15)
                 cevapIkı.text = randomlarIki.toString()
             } else if (i.toString() == randomlarIki.toString()) {
-                val randomlarIki = Random.nextInt(0, 30)
+                val randomlarIki = Random.nextInt(-15, 15)
                 cevapIkı.text = randomlarIki.toString()
             } else {
                 cevapIkı.text = randomlarIki.toString()
             }
 
-            val randomlarUc = Random.nextInt(0, 30)
+            val randomlarUc = Random.nextInt(-15, 15)
             if (i.toString() == randomlarUc.toString()) {
-                val randomlarUc = Random.nextInt(0, 30)
+                val randomlarUc = Random.nextInt(-15, 15)
                 cevapDort.text = randomlarUc.toString()
             } else if (i.toString() == randomlarUc.toString()) {
-                val randomlarUc = Random.nextInt(0, 30)
+                val randomlarUc = Random.nextInt(-15, 15)
                 cevapDort.text = randomlarUc.toString()
             } else {
                 cevapDort.text = randomlarUc.toString()
@@ -247,34 +247,34 @@ class toplamaIslemi : AppCompatActivity() {
             }
         } else if (rastgeleList == 4) {
             cevapDort.text = i.toString()
-            val randomlar = Random.nextInt(0, 30)
+            val randomlar = Random.nextInt(-15, 15)
             if (i.toString() == randomlar.toString()) {
-                val randomlar = Random.nextInt(0, 30)
+                val randomlar = Random.nextInt(-15, 15)
                 cevapBir.text = randomlar.toString()
             } else if (i.toString() == randomlar.toString()) {
-                val randomlar = Random.nextInt(0, 30)
+                val randomlar = Random.nextInt(-15, 15)
                 cevapBir.text = randomlar.toString()
             } else {
                 cevapBir.text = randomlar.toString()
             }
 
-            val randomlarIki = Random.nextInt(0, 30)
+            val randomlarIki = Random.nextInt(-15, 15)
             if (i.toString() == randomlarIki.toString()) {
-                val randomlarIki = Random.nextInt(0, 30)
+                val randomlarIki = Random.nextInt(-15, 15)
                 cevapIkı.text = randomlarIki.toString()
             } else if (i.toString() == randomlarIki.toString()) {
-                val randomlarIki = Random.nextInt(0, 30)
+                val randomlarIki = Random.nextInt(-15, 15)
                 cevapIkı.text = randomlarIki.toString()
             } else {
                 cevapIkı.text = randomlarIki.toString()
             }
 
-            val randomlarUc = Random.nextInt(0, 30)
+            val randomlarUc = Random.nextInt(-15, 15)
             if (i.toString() == randomlarUc.toString()) {
-                val randomlarUc = Random.nextInt(0, 30)
+                val randomlarUc = Random.nextInt(-15, 15)
                 cevapUc.text = randomlarUc.toString()
             } else if (i.toString() == randomlarUc.toString()) {
-                val randomlarUc = Random.nextInt(0, 30)
+                val randomlarUc = Random.nextInt(-15, 15)
                 cevapUc.text = randomlarUc.toString()
             } else {
                 cevapUc.text = randomlarUc.toString()
@@ -321,19 +321,19 @@ class toplamaIslemi : AppCompatActivity() {
 
 
             if (soruSayi <= 10) {
-                soruCozz.text = soruSayi.toString()+"."
+                soruCozz.text = soruSayi.toString() + ". Sorudasın. Güzell!"
             } else if (soruSayi <= 20) {
-                soruCozz.text = soruSayi.toString()+"."
+                soruCozz.text = soruSayi.toString() + ". Sorudasın. Çok İyi!"
             } else if (soruSayi <= 30) {
-                soruCozz.text = soruSayi.toString()+"."
+                soruCozz.text = soruSayi.toString() + ". Sorudasın. Muhteşem!"
             } else if (soruSayi <= 45) {
-                soruCozz.text = soruSayi.toString()+"."
+                soruCozz.text = soruSayi.toString() + ". Sorudasın. Efsane!"
                 soruCozz.setBackgroundColor(Color.parseColor("#ff8c00"))
             } else if (soruSayi <= 65) {
-                soruCozz.text = soruSayi.toString()+"."
+                soruCozz.text = soruSayi.toString() + ". Sorudasın. Lider!"
                 soruCozz.setBackgroundColor(Color.parseColor("#ee6a50"))
             } else {
-                soruCozz.text = soruSayi.toString()+"."
+                soruCozz.text = soruSayi.toString() + ". Sorudasın. Matematikçi!"
                 soruCozz.setBackgroundColor(Color.parseColor("#c60000"))
             }
 
@@ -347,34 +347,34 @@ class toplamaIslemi : AppCompatActivity() {
             val rastgeleList = Random.nextInt(1, 4)
             if (rastgeleList == 1) {
                 cevapBir.text = i.toString()
-                val randomlar = Random.nextInt(0, 30)
+                val randomlar = Random.nextInt(-15, 15)
                 if (i.toString() == randomlar.toString()) {
-                    val randomlar = Random.nextInt(0, 30)
+                    val randomlar = Random.nextInt(-15, 15)
                     cevapIkı.text = randomlar.toString()
                 } else if (i.toString() == randomlar.toString()) {
-                    val randomlar = Random.nextInt(0, 30)
+                    val randomlar = Random.nextInt(-15, 15)
                     cevapIkı.text = randomlar.toString()
                 } else {
                     cevapIkı.text = randomlar.toString()
                 }
 
-                val randomlarIki = Random.nextInt(0, 30)
+                val randomlarIki = Random.nextInt(-15, 15)
                 if (i.toString() == randomlarIki.toString()) {
-                    val randomlarIki = Random.nextInt(0, 30)
+                    val randomlarIki = Random.nextInt(-15, 15)
                     cevapUc.text = randomlarIki.toString()
                 } else if (i.toString() == randomlarIki.toString()) {
-                    val randomlarIki = Random.nextInt(0, 30)
+                    val randomlarIki = Random.nextInt(-15, 15)
                     cevapUc.text = randomlarIki.toString()
                 } else {
                     cevapUc.text = randomlarIki.toString()
                 }
 
-                val randomlarUc = Random.nextInt(0, 30)
+                val randomlarUc = Random.nextInt(-15, 15)
                 if (i.toString() == randomlarUc.toString()) {
-                    val randomlarUc = Random.nextInt(0, 30)
+                    val randomlarUc = Random.nextInt(-15, 15)
                     cevapDort.text = randomlarUc.toString()
                 } else if (i.toString() == randomlarUc.toString()) {
-                    val randomlarUc = Random.nextInt(0, 30)
+                    val randomlarUc = Random.nextInt(-15, 15)
                     cevapDort.text = randomlarUc.toString()
                 } else {
                     cevapDort.text = randomlarUc.toString()
@@ -407,34 +407,34 @@ class toplamaIslemi : AppCompatActivity() {
                 }
             } else if (rastgeleList == 2) {
                 cevapIkı.text = i.toString()
-                val randomlar = Random.nextInt(0, 30)
+                val randomlar = Random.nextInt(-15, 15)
                 if (i.toString() == randomlar.toString()) {
-                    val randomlar = Random.nextInt(0, 30)
+                    val randomlar = Random.nextInt(-15, 15)
                     cevapBir.text = randomlar.toString()
                 } else if (i.toString() == randomlar.toString()) {
-                    val randomlar = Random.nextInt(0, 30)
+                    val randomlar = Random.nextInt(-15, 15)
                     cevapBir.text = randomlar.toString()
                 } else {
                     cevapBir.text = randomlar.toString()
                 }
 
-                val randomlarIki = Random.nextInt(0, 30)
+                val randomlarIki = Random.nextInt(-15, 15)
                 if (i.toString() == randomlarIki.toString()) {
-                    val randomlarIki = Random.nextInt(0, 30)
+                    val randomlarIki = Random.nextInt(-15, 15)
                     cevapUc.text = randomlarIki.toString()
                 } else if (i.toString() == randomlarIki.toString()) {
-                    val randomlarIki = Random.nextInt(0, 30)
+                    val randomlarIki = Random.nextInt(-15, 15)
                     cevapUc.text = randomlarIki.toString()
                 } else {
                     cevapUc.text = randomlarIki.toString()
                 }
 
-                val randomlarUc = Random.nextInt(0, 30)
+                val randomlarUc = Random.nextInt(-15, 15)
                 if (i.toString() == randomlarUc.toString()) {
-                    val randomlarUc = Random.nextInt(0, 30)
+                    val randomlarUc = Random.nextInt(-15, 15)
                     cevapDort.text = randomlarUc.toString()
                 } else if (i.toString() == randomlarUc.toString()) {
-                    val randomlarUc = Random.nextInt(0, 30)
+                    val randomlarUc = Random.nextInt(-15, 15)
                     cevapDort.text = randomlarUc.toString()
                 } else {
                     cevapDort.text = randomlarUc.toString()
@@ -467,34 +467,34 @@ class toplamaIslemi : AppCompatActivity() {
                 }
             } else if (rastgeleList == 3) {
                 cevapUc.text = i.toString()
-                val randomlar = Random.nextInt(0, 30)
+                val randomlar = Random.nextInt(-15, 15)
                 if (i.toString() == randomlar.toString()) {
-                    val randomlar = Random.nextInt(0, 30)
+                    val randomlar = Random.nextInt(-15, 15)
                     cevapBir.text = randomlar.toString()
                 } else if (i.toString() == randomlar.toString()) {
-                    val randomlar = Random.nextInt(0, 30)
+                    val randomlar = Random.nextInt(-15, 15)
                     cevapBir.text = randomlar.toString()
                 } else {
                     cevapBir.text = randomlar.toString()
                 }
 
-                val randomlarIki = Random.nextInt(0, 30)
+                val randomlarIki = Random.nextInt(-15, 15)
                 if (i.toString() == randomlarIki.toString()) {
-                    val randomlarIki = Random.nextInt(0, 30)
+                    val randomlarIki = Random.nextInt(-15, 15)
                     cevapIkı.text = randomlarIki.toString()
                 } else if (i.toString() == randomlarIki.toString()) {
-                    val randomlarIki = Random.nextInt(0, 30)
+                    val randomlarIki = Random.nextInt(-15, 15)
                     cevapIkı.text = randomlarIki.toString()
                 } else {
                     cevapIkı.text = randomlarIki.toString()
                 }
 
-                val randomlarUc = Random.nextInt(0, 30)
+                val randomlarUc = Random.nextInt(-15, 15)
                 if (i.toString() == randomlarUc.toString()) {
-                    val randomlarUc = Random.nextInt(0, 30)
+                    val randomlarUc = Random.nextInt(-15, 15)
                     cevapDort.text = randomlarUc.toString()
                 } else if (i.toString() == randomlarUc.toString()) {
-                    val randomlarUc = Random.nextInt(0, 30)
+                    val randomlarUc = Random.nextInt(-15, 15)
                     cevapDort.text = randomlarUc.toString()
                 } else {
                     cevapDort.text = randomlarUc.toString()
@@ -527,34 +527,34 @@ class toplamaIslemi : AppCompatActivity() {
                 }
             } else if (rastgeleList == 4) {
                 cevapDort.text = i.toString()
-                val randomlar = Random.nextInt(0, 30)
+                val randomlar = Random.nextInt(-15, 15)
                 if (i.toString() == randomlar.toString()) {
-                    val randomlar = Random.nextInt(0, 30)
+                    val randomlar = Random.nextInt(-15, 15)
                     cevapBir.text = randomlar.toString()
                 } else if (i.toString() == randomlar.toString()) {
-                    val randomlar = Random.nextInt(0, 30)
+                    val randomlar = Random.nextInt(-15, 15)
                     cevapBir.text = randomlar.toString()
                 } else {
                     cevapBir.text = randomlar.toString()
                 }
 
-                val randomlarIki = Random.nextInt(0, 30)
+                val randomlarIki = Random.nextInt(-15, 15)
                 if (i.toString() == randomlarIki.toString()) {
-                    val randomlarIki = Random.nextInt(0, 30)
+                    val randomlarIki = Random.nextInt(-15, 15)
                     cevapIkı.text = randomlarIki.toString()
                 } else if (i.toString() == randomlarIki.toString()) {
-                    val randomlarIki = Random.nextInt(0, 30)
+                    val randomlarIki = Random.nextInt(-15, 15)
                     cevapIkı.text = randomlarIki.toString()
                 } else {
                     cevapIkı.text = randomlarIki.toString()
                 }
 
-                val randomlarUc = Random.nextInt(0, 30)
+                val randomlarUc = Random.nextInt(-15, 15)
                 if (i.toString() == randomlarUc.toString()) {
-                    val randomlarUc = Random.nextInt(0, 30)
+                    val randomlarUc = Random.nextInt(-15, 15)
                     cevapUc.text = randomlarUc.toString()
                 } else if (i.toString() == randomlarUc.toString()) {
-                    val randomlarUc = Random.nextInt(0, 30)
+                    val randomlarUc = Random.nextInt(-15, 15)
                     cevapUc.text = randomlarUc.toString()
                 } else {
                     cevapUc.text = randomlarUc.toString()

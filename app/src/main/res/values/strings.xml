@@ -1,7 +1,3 @@
 <resources>
-    <string name="app_name">addition and subtraction</string>
-    <string name="toplama">Collection (+)</string>
-    <string name="cikarma">Extraction (-)</string>
-    <string name="Sorudasın">question</string>
-
+    <string name="app_name">toplama çikarma oyunu</string>
 </resources>

@@ -10,8 +10,8 @@ android {
         applicationId "com.kotuzstudio.toplamacikarmaoyunu"
         minSdk 21
         targetSdk 32
-        versionCode 8
-        versionName "1.7"
+        versionCode 3
+        versionName "1.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
