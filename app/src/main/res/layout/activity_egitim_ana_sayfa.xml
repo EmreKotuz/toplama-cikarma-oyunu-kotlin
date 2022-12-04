@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".egitimAnaSayfa">
+
+    <TextView
+        android:id="@+id/sayilar"
+        android:layout_width="325dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="276dp"
+        android:background="#3F51B5"
+        android:gravity="center"
+        android:text="Sayıları Öğren"
+        android:textColor="#FFFFFF"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sayma"
+        android:layout_width="342dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="52dp"
+        android:background="#282A37"
+        android:gravity="center"
+        android:text="Hesaplamayı Öğren"
+        android:textColor="#FFFFFF"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sayilar" />
+</androidx.constraintlayout.widget.ConstraintLayout>
