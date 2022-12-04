@@ -1,5 +1,10 @@
 # toplama-cikarma-oyunu-kotlin
 
+
+![toplamacikarmaoyunu](https://user-images.githubusercontent.com/50784738/205484341-6ab7287e-ff03-4e2c-99c9-52be786766a4.png)
+
+
+
 TR:
 
 Toplama ve çıkarma oyunu;
