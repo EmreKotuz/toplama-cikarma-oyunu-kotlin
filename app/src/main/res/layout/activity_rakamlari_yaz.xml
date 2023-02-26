@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    android:id="@+id/arkaPlanRakam"
+    tools:context=".rakamlariYaz">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="29dp"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-6537190103014639/6523225562"
+        app:layout_constraintEnd_toStartOf="@+id/anaSayfa3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></com.google.android.gms.ads.AdView>
+
+    <TextView
+        android:id="@+id/kontrolEt"
+        android:layout_width="307dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="50dp"
+        android:background="#3F51B5"
+        android:fontFamily="@font/candal"
+        android:gravity="center"
+        android:text="Kontrol Et"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cevaplama" />
+
+    <ImageView
+        android:id="@+id/rakamYeri"
+        android:layout_width="169dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="92dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cevaplama"
+        android:layout_width="284dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="93dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Yedi"
+        android:inputType="textPersonName"
+        android:textSize="29sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.608"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rakamYeri" />
+</androidx.constraintlayout.widget.ConstraintLayout>

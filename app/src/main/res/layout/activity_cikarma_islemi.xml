@@ -75,6 +75,36 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/anasayfa" />
 
+    <ImageView
+        android:id="@+id/caniUc"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/anaSayfa2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/canibeyaz" />
+
+    <ImageView
+        android:id="@+id/caniIki"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/caniUc"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/canibeyaz" />
+
+    <ImageView
+        android:id="@+id/caniBir"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/caniIki"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/canibeyaz" />
+
     <LinearLayout
         android:id="@+id/linearLayout6"
         android:layout_width="0dp"

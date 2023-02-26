@@ -12,6 +12,46 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ToplamaÇikarmaOyunu">
         <activity
+            android:name=".matematikOrta"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".matematigeGiris"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".rakamlariYaz"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".destek"
+            android:exported="false" />
+        <activity
+            android:name=".sayiEgitim"
+            android:exported="false" />
+        <activity
+            android:name=".testSayfasi"
+            android:exported="false" />
+        <activity
+            android:name=".sayilariHesapla"
+            android:exported="false" />
+        <activity
             android:name=".saymaSayilar"
             android:exported="false" />
         <activity
@@ -39,7 +79,7 @@
             android:name=".toplamaIslemi"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".girisSayfasi"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -50,7 +90,7 @@
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713" />
+            android:value="ca-app-pub-6537190103014639~8050562678" />
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

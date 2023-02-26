@@ -1,8 +1,7 @@
 # toplama-cikarma-oyunu-kotlin
 
-
-
 TR:
+
 
 Toplama ve çıkarma oyunu;
  

@@ -82,6 +82,8 @@
             android:gravity="center"
             android:hint="Lakabınız ya da isiminiz"
             android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
             android:textSize="20sp" />
 
         <TextView
@@ -114,7 +116,7 @@
             android:paddingBottom="20dp">
 
             <ImageView
-                android:id="@+id/menuGecbaba"
+                android:id="@+id/menuSec"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_marginStart="23dp"
@@ -129,13 +131,14 @@
                 android:layout_weight="1" />
 
             <ImageView
-                android:id="@+id/liste"
+                android:id="@+id/listeSec"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_marginTop="3dp"
                 android:layout_weight="1"
                 android:background="@drawable/rastgelebtn"
-                android:src="@drawable/siralama" />
+                android:src="@drawable/siralama"
+                tools:visibility="visible" />
 
             <TextView
                 android:id="@+id/textView12"
@@ -144,7 +147,7 @@
                 android:layout_weight="1" />
 
             <ImageView
-                android:id="@+id/tekrarlaGardas"
+                android:id="@+id/tekrarSec"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_marginTop="3dp"

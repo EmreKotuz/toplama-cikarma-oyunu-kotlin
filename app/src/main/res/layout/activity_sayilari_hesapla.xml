@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/arkaPlanRengi"
+    android:layout_height="match_parent"
+    tools:context=".sayilariHesapla">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="29dp"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-6537190103014639/6523225562"
+        app:layout_constraintEnd_toStartOf="@+id/anaSayfa3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></com.google.android.gms.ads.AdView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="168dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/ilkcarpim"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/alfa_slab_one"
+            android:gravity="center"
+            android:text="10"
+            android:textColor="#705959"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/eksiArti"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/alfa_slab_one"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="#705959"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/ikincicarpim"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/alfa_slab_one"
+            android:gravity="center"
+            android:text="7"
+            android:textColor="#705959"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/alfa_slab_one"
+            android:gravity="center"
+            android:text="="
+            android:textColor="#705959"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/cevap"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/alfa_slab_one"
+            android:gravity="center"
+            android:text="?"
+            android:textColor="#E91E63"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="72dp"
+        android:background="#FFFFFF"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/anaSayfa3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/anasayfa" />
+
+    <EditText
+        android:id="@+id/cevapYazz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:maxLength="5"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+    <TextView
+        android:id="@+id/testEt"
+        android:layout_width="307dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="80dp"
+        android:background="#3A3640"
+        android:fontFamily="@font/candal"
+        android:gravity="center"
+        android:text="Test Et"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cevapYazz" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

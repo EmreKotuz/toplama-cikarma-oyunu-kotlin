@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.TextView
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.LoadAdError
+import com.google.android.gms.ads.MobileAds
 import com.google.android.gms.ads.interstitial.InterstitialAd
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 
@@ -18,7 +19,21 @@ class saymaSayilar : AppCompatActivity() {
         var anaSayfaSayilar = findViewById<androidx.constraintlayout.widget.ConstraintLayout>(R.id.sayilarArti)
         var gec = findViewById<TextView>(R.id.gec)
         var cikis = findViewById<TextView>(R.id.cikis)
+        MobileAds.initialize(this) {}
+        var adRequest = AdRequest.Builder().build()
+        InterstitialAd.load(
+            this,
+            "ca-app-pub-6537190103014639/8087867913",
+            adRequest,
+            object : InterstitialAdLoadCallback() {
+                override fun onAdFailedToLoad(adError: LoadAdError) {
+                    mInterstitialAd = null
+                }
 
+                override fun onAdLoaded(interstitialAd: InterstitialAd) {
+                    mInterstitialAd = interstitialAd
+                }
+            })
         cikis.setOnClickListener {
             saymaSayi = 1
             var anaSayfa = Intent(this,MainActivity::class.java)
@@ -50,6 +65,21 @@ class saymaSayilar : AppCompatActivity() {
         }else if (saymaSayi == 6){
             anaSayfaSayilar.setBackgroundResource(R.mipmap.alti)
         }else if (saymaSayi == 7){
+
+            if (mInterstitialAd != null) {
+                mInterstitialAd?.show(this)
+            } else {
+
+            }
+            anaSayfaSayilar.setBackgroundResource(R.mipmap.yedi)
+        }else if (saymaSayi == 8){
+            anaSayfaSayilar.setBackgroundResource(R.mipmap.sekiz)
+        }else if (saymaSayi == 9){
+            anaSayfaSayilar.setBackgroundResource(R.mipmap.dokuz)
+        }else if (saymaSayi == 10){
+            anaSayfaSayilar.setBackgroundResource(R.mipmap.on)
+        }else if (saymaSayi == 11){
+            anaSayfaSayilar.setBackgroundResource(R.mipmap.ebir)
             var adRequest = AdRequest.Builder().build()
             InterstitialAd.load(
                 this,
@@ -69,15 +99,6 @@ class saymaSayilar : AppCompatActivity() {
             } else {
 
             }
-            anaSayfaSayilar.setBackgroundResource(R.mipmap.yedi)
-        }else if (saymaSayi == 8){
-            anaSayfaSayilar.setBackgroundResource(R.mipmap.sekiz)
-        }else if (saymaSayi == 9){
-            anaSayfaSayilar.setBackgroundResource(R.mipmap.dokuz)
-        }else if (saymaSayi == 10){
-            anaSayfaSayilar.setBackgroundResource(R.mipmap.on)
-        }else if (saymaSayi == 11){
-            anaSayfaSayilar.setBackgroundResource(R.mipmap.ebir)
         }else if (saymaSayi == 12){
             anaSayfaSayilar.setBackgroundResource(R.mipmap.eiki)
         }else if (saymaSayi == 13){

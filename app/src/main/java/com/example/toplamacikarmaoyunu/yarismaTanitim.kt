@@ -1,6 +1,7 @@
 package com.example.toplamacikarmaoyunu
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
@@ -21,5 +22,6 @@ class yarismaTanitim : AppCompatActivity() {
             var siralamaButton = Intent(this,siralama::class.java)
             startActivity(siralamaButton)
         }
+
     }
 }

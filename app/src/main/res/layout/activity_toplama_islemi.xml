@@ -214,6 +214,37 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/anasayfa" />
 
+    <ImageView
+        android:id="@+id/canUc"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/anaSayfa"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cani" />
+
+    <ImageView
+        android:id="@+id/canIki"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/canUc"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cani"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/canBir"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="11dp"
+        app:layout_constraintEnd_toStartOf="@+id/canIki"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cani" />
+
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
         android:layout_width="wrap_content"
