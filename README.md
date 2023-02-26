@@ -42,4 +42,4 @@ In the choice he makes, he must answer the question correctly. If he can solve a
 
 
 
-![toplamacikarmaoyunu](https://user-images.githubusercontent.com/50784738/205484341-6ab7287e-ff03-4e2c-99c9-52be786766a4.png)
+![toplama cikarma oyunu pro](https://user-images.githubusercontent.com/50784738/221402744-939df015-ece7-4a25-b2ae-dc4eea189e90.png)
